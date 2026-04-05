@@ -1,0 +1,18 @@
+{
+  "widgets": [
+    {
+      "type": "metric",
+      "properties": {
+        "metrics": [
+          ["AWS/Billing", "EstimatedCharges", "Currency", "USD"],
+          ["AWS/EC2", "CPUUtilization"],
+          ["AWS/S3", "BucketSizeBytes"]
+        ],
+        "period": 3600,
+        "stat": "Average",
+        "region": "us-east-1",
+        "title": "AWS Cost & Usage Dashboard"
+      }
+    }
+  ]
+}
