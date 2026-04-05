@@ -1,0 +1,15 @@
+AWS Storage Optimization Strategies
+
+1. S3 Storage Tiering
+   - Move infrequently accessed data to S3 Standard-IA
+   - Use S3 Glacier for archival data
+   - Enable S3 Lifecycle Policies
+
+2. EBS Optimization
+   - Delete unused EBS volumes
+   - Use gp3 instead of gp2 for cost savings
+   - Snapshot old volumes and delete originals
+
+3. Data Compression
+   - Compress logs before storing in S3
+   - Use Parquet format for analytics workloads
