@@ -1,0 +1,13 @@
+AWS Autoscaling Strategy
+
+1. EC2 Auto Scaling
+   - Scale based on CPU, memory, or request count
+   - Use predictive scaling for stable workloads
+
+2. Application Auto Scaling
+   - Scale ECS tasks based on CPU/Memory
+   - Scale DynamoDB based on read/write capacity
+
+3. Scheduled Scaling
+   - Scale down during off-hours
+   - Reduce compute waste for non-production workloads
