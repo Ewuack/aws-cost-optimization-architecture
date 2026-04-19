@@ -1,4 +1,4 @@
-# AWS Cost Optimization Architecture
+# cloud migration Architecture
 
 **A Cloud TPM's strategic framework for reducing AWS infrastructure spend while maintaining performance, reliability, and compliance.**
 
@@ -18,7 +18,7 @@ This playbook documents a structured, cross-functional cost optimization program
 
 ## Repository Structure
 
-aws-cost-optimization-playbook/
+Cloud-migration-architecture/
 |-- compute/           # EC2 rightsizing, Reserved Instance strategy, Spot Fleet policies
 |-- storage/           # S3 lifecycle policies, EBS optimization, data tiering
 |-- networking/        # NAT Gateway consolidation, data transfer optimization
