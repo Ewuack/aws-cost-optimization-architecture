@@ -1,4 +1,4 @@
-# AWS Cost Optimization Playbook
+# AWS Cost Optimization Architecture
 
 **A Cloud TPM's strategic framework for reducing AWS infrastructure spend while maintaining performance, reliability, and compliance.**
 
